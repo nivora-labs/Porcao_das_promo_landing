@@ -24,18 +24,18 @@ export function HeroSection() {
             alt="Porcao das Promocoes - Logo do porquinho no carrinho de compras"
             width={320}
             height={320}
-            className="w-64 h-auto md:w-80 drop-shadow-2xl"
+            className="w-56 sm:w-64 md:w-80 h-auto drop-shadow-2xl"
             priority
           />
         </div>
 
         {/* Subtitle */}
-        <p className="text-xl md:text-2xl font-semibold text-[#FFD700] mb-4 drop-shadow-md">
+        <p className="text-lg sm:text-xl md:text-2xl font-semibold text-[#FFD700] mb-4 drop-shadow-md">
           O melhor grupo de ofertas!
         </p>
 
         {/* Description */}
-        <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed drop-shadow-md">
+        <p className="text-base sm:text-lg md:text-xl text-white/90 mb-8 leading-relaxed drop-shadow-md">
           Encontre as melhores ofertas e descontos exclusivos. Nao perca nenhuma
           promocao!
         </p>
